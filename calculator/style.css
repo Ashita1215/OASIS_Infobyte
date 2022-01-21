@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    font-family: sans-serif;
+    outline: none;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background-color: #ecf0f3;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #fff,
+                        5px 5px 12px rgba(0,0,0,.16);
+    display: grid;
+    grid-template-columns: repeat(4,65px);                  
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 250px;
+    background-color: #ecf0f3;
+    box-shadow:  5px 5px 12px #fff,
+                  -5px -5px 13px rgba(0,0,0,.16);
+                border: none;
+                border-radius: 30px;
+                color: rgb(27, 26, 26);
+                font-size: 50px;
+                text-align: end;
+                margin: auto;
+                margin-top: 40px;
+                margin-bottom: 30px;
+                padding: 20px;
+}
+button{
+    height: 48px;
+    width: 48px;
+    background-color: #ebf0f3;
+    box-shadow:  -5px -5px 12px #fff,
+                 5px 5px 12px rgba(0,0,0,.16); 
+    border-radius: 50%;
+    border: none;
+    margin: 8px;
+    font-size: 16px;
+}
+#equal{
+    width: 110px;
+    border-radius: 40px;
+    background: #33ccff;
+
+}
+
+#equal:hover{
+    box-shadow: inset 5px 5px 8px #00ace6,
+    inset -5px -5px 8px #00ace6;
+}
+
+#cl 
+{
+    background: #ff3399;
+    color: #fff;
+}
+
+#cl:hover 
+{
+      box-shadow: inset 5px 5px 8px #e60073,
+                  inset -5px -5px 8px #ff3399;
+}
+
+#del 
+    {
+        background: #33cc33;
+        color: #fff;
+    }
+
+
+#del:hover 
+    {
+        box-shadow: inset 5px 5px 8px #2eb82e,
+                    inset -5px -5px 8px #33cc33;
+    }
+
+.h2
+{
+  color: aqua;  
+}
+
+.calculator button:hover{
+    box-shadow:  inset 5px 5px 8px rgba(16, 16, 16, .1),
+                     inset -5px -5px 8px #fff;
+        background: #fff;
+}
+
+/*================= Heading Css =================*/
+h2
+
+{
+    font-size: 40px;
+    position: relative;
+    bottom: 1em; 
+    margin-left: 12.5em;
+    font-family: sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #d1d9e6,
+                    1px 1px 2px #d1d9e6,
+                    3px 3px 3px #d1d9e6,
+                    4px 4px 4px #d1d9e6,
+                    5px 5px 5px #d1d9e6, 
+                    6px 6px 6px #d1d9e6,
+                    7px 7px 7px #d1d9e6,
+                    8px 8px 8px #d1d9e6;
+                    letter-spacing: 4.5px;
+}
+
+h2 span
+{
+color: #33ccff;
+font-size: 45px;
+text-shadow: 1px 1px 1px #d1d9e6,
+                1px 1px 2px #d1d9e6,
+                3px 3px 3px #d1d9e6,
+                4px 4px 4px #d1d9e6,
+                5px 5px 5px #d1d9e6, 
+                6px 6px 6px #d1d9e6 ;   
+text-align: center; 
+}
+
+h2 .fa
+{
+    position: absolute; 
+    top: 1.5em;
+    color: #33ccff;
+}
